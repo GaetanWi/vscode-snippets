@@ -1,0 +1,40 @@
+{
+	"New TS Component": {
+		"prefix": "v-ts-component",
+		"body": [
+			"<template>",
+			"</template>",
+			"",
+			"<script lang='ts'>",
+			"import Vue from 'vue';",
+			"import { Component } from 'vue-property-decorator';",
+			"",
+			"export default class ${MyClass} extends Vue {",
+			"",
+			"}",
+			"</script>",
+			"",
+			"<style lang='scss' scoped>",
+			"</style>"
+		]
+	},
+	"New TS Secured Component": {
+		"prefix": "v-ts-secured-component",
+		"body": [
+			"<template>",
+			"</template>",
+			"",
+			"<script lang='ts'>",
+			"import SecuredVue from '@/components/Commons/SecuredVue.vue';",
+			"import { Component } from 'vue-property-decorator';",
+			"",
+			"export default class ${MyClass} extends SecuredVue {",
+			"",
+			"}",
+			"</script>",
+			"",
+			"<style lang='scss' scoped>",
+			"</style>"
+		]
+	},
+}
