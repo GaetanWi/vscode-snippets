@@ -1,0 +1,18 @@
+{
+    "New Vuetify Card" : {
+        "prefix": "vuetify-card",
+        "body": [
+            "<v-card>",
+            "   <v-card-title>",
+            "",
+            "   </v-card-title>",
+            "   <v-card-text>",
+            "",
+            "   </v-card-text>",
+            "   <v-card-actions>",
+            "",
+            "   </v-card-actions>",
+            "</v-card>"
+        ]
+    }
+}
